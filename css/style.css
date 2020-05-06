@@ -12,6 +12,7 @@ body{
 
 main{
   padding-top: 4em;
+  padding-bottom: 7.5em;
 }
 
 h1{
@@ -63,7 +64,7 @@ header nav li:last-child{
 }
 
 .news{
-  width: 680px;
+  width: 42.5em;
   margin: 10px 0px;
   padding: 0px 20px;
   border: solid 4px #eee;
@@ -88,6 +89,7 @@ footer{
   color: #ffffff;
   font-size: 0.875em;
   height: 3.75em;
+  width: 100vw;
   border-top: 0.25em solid #0D3E69;
   border-bottom: 0.25em solid #11548F;
   
@@ -97,5 +99,4 @@ footer{
 
   position: absolute;
   bottom: 0;
-  width: 100vw;
 }
