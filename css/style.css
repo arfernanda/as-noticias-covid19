@@ -8,6 +8,15 @@ body{
   margin: 0;
 }
 
+main{
+  padding-top: 10px;
+}
+
+h1{
+  font-size: 2.5em;
+  
+}
+/* header */
 a{
   text-decoration: none;
   color: inherit;
@@ -31,4 +40,37 @@ header nav li{
   padding-right: 10px;
   padding-left: 10px;
   font-size: 20px;
+}
+/* news */
+.principal{
+  background-color: #eee;
+  background-position: bottom;
+}
+
+.main-news{
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  
+}
+
+.news{
+  width: 680px;
+  margin: 10px 0px;
+  padding: 0px 20px;
+  border: solid 4px #eee;
+  box-shadow: 0px 0px 20px -15px #006B54;
+}
+
+.news h2{
+  font-size: 2.0em;
+}
+
+.news p{
+  font-size: 20px;
+}
+
+.main-news hr{
+  border: 10px solid #006B54;
+  width: 100vmin;
 }
