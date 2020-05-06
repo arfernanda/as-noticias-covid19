@@ -6,6 +6,8 @@ html{
 body{
   text-align: center;
   margin: 0;
+  position: relative;
+  min-height: 100vh;
 }
 
 main{
@@ -81,20 +83,19 @@ header nav li:last-child{
   width: 100vmin;
 }
 /* footer */
-/* footer{
+footer{
   background-color: #0F4C81;
   color: #ffffff;
-  font-size: 14px;
-  height: 80px;
+  font-size: 0.875em;
+  height: 3.75em;
+  border-top: 0.25em solid #0D3E69;
+  border-bottom: 0.25em solid #11548F;
   
   display: flex;
   justify-content: center;
   align-items: center;
 
-  border-top: 1px solid #333;
+  position: absolute;
   bottom: 0;
-  left: 0;
-  height: 40px;
-  position: fixed;
-  width: 100%;
-} */
+  width: 100vw;
+}
