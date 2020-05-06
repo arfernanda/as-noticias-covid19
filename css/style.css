@@ -9,7 +9,7 @@ body{
 }
 
 main{
-  padding-top: 10px;
+  padding-top: 4em;
 }
 
 h1{
@@ -28,6 +28,8 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  width: 100vw;
 }
 
 .logo{
@@ -40,6 +42,10 @@ header nav li{
   padding-right: 10px;
   padding-left: 10px;
   font-size: 20px;
+}
+
+header nav li:last-child{
+  padding-right: 1.5em;
 }
 /* news */
 .principal{
@@ -74,3 +80,21 @@ header nav li{
   border: 10px solid #006B54;
   width: 100vmin;
 }
+/* footer */
+/* footer{
+  background-color: #0F4C81;
+  color: #ffffff;
+  font-size: 14px;
+  height: 80px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-top: 1px solid #333;
+  bottom: 0;
+  left: 0;
+  height: 40px;
+  position: fixed;
+  width: 100%;
+} */
