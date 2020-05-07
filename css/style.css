@@ -130,10 +130,6 @@ footer{
   background-color: rgba(13, 62, 105, 0.25);
 }
 /* about */
-/* .about{
-  width: 42.5em;
-} */
-
 .about article{
   display: flex;
   justify-content: center;
@@ -179,5 +175,63 @@ footer{
 }
 
 .social-media li:hover {
-    opacity: 0.7;
+  opacity: 0.7;
+}
+/* contact */
+.contact div{
+  display: inline-block;
+  width: 42.5em;
+  background-color: #eee;
+  padding: 2em 0;
+  border-radius: 8px;
+}
+
+.contact form{
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  width: 100%;
+  font-size: 1.25em;
+}
+
+.contact form label, #name, #email, #msg{
+  text-align: left;
+  width: 75%;
+  border-radius: 8px;
+}
+
+#name, #email, #msg{
+  font-family: inherit;
+  font-size: inherit;
+  margin-bottom: 1em;
+
+  border: 3px solid #ccc;
+  transition: 0.5s;
+  outline: none;
+}
+
+#name:focus, #email:focus, #msg:focus {
+  border: 3px solid #555;
+}
+
+#msg{
+  height: 7.5em;
+}
+
+input[type=submit]{
+  font-family: inherit;
+  font-size: inherit;
+  background-color: #4CAF50;
+  width: 25%;
+  border: none;
+  padding: 8px 16px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: 0.25s;
+}
+input[type=submit]:hover{
+  background-color: #71c174;
+  width: 30%;
 }

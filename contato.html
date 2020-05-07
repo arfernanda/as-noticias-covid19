@@ -30,19 +30,25 @@
     <h1>
       Entre em contato
     </h1>
-    <section>
-      <form action="/pagina-processa-dados-do-form" method="post">
-        <label for="nome">Nome</label>
-        <input type="text" id="nome" />
 
-        <label for="email">E-mail</label>
-        <input type="email" id="email" />
+    <section class="contact">
+      <p>
+        Fique a vontade para mandar uma mensagem se preferir
+      </p>
+      <div>
+        <form action="/pagina-processa-dados-do-form" method="post">
+          <label for="name">Nome</label>
+          <input type="text" id="name" />
 
-        <label for="msg">Mensagem</label>
-        <textarea id="msg"></textarea>
+          <label for="email">E-mail</label>
+          <input type="email" id="email" />
 
-        <input type="submit" value="Enviar" disabled>
-      </form>
+          <label for="msg">Mensagem</label>
+          <textarea id="msg"></textarea>
+
+          <input type="submit" value="Enviar" disabled>
+        </form>
+      </div>
 
     </section>
   </main>
