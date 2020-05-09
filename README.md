@@ -15,4 +15,4 @@ Clone esse repositório para a sua máquina local usando:
 https://github.com/arfernanda/as-noticias-covid19.git
 ``` 
 ---
-Desafio do programa [Hiring Coders](https://hiringcoders.gama.academy/) da Gama Academy
+Desafio do programa Hiring Coders da [Gama Academy](https://gama.academy/).
